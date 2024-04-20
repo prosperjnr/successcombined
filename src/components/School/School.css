@@ -1,0 +1,32 @@
+.school {
+    margin: 60px auto;
+    width: 90%;
+    text-align: center;
+}
+
+.school_gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.school_gallery img {
+    width: 23%;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid teal;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+/* ----------- nedia ------------query */
+@media (max-width: 800px) {
+    .school_gallery {
+        flex-wrap: wrap;
+    }
+
+    .school_gallery img {
+        width: 48%;
+        margin-bottom: 25px;
+    }
+}

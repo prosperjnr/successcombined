@@ -1,0 +1,49 @@
+.footer_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px auto;
+    border-top: 1px solid #797979;
+    padding: 15px 0;
+
+}
+
+.footer_container ul {
+    display: flex;
+    margin-right: 30px;
+}
+
+.footer_container ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.footer_container .facebookLogo {
+    width: 35px;
+    cursor: pointer;
+}
+
+.footer_container .xLogo {
+    font-size: 37px;
+    cursor: pointer;
+}
+
+/* ------ media query -------- */
+@media (max-width: 600px) {
+    .footer_container {
+        display: block;
+        padding-left: 3%;
+    }
+
+    .footer_container ul li {
+        text-align: right;
+    }
+
+    .footer_container ul li {
+        margin: 10px;
+    }
+
+    .footer ul {
+        margin-top: 10px;
+    }
+}
